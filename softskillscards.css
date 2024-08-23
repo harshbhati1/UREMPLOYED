@@ -1,0 +1,224 @@
+.container10{
+  
+    margin-top: 20px;
+  }
+  
+  .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card-01{
+    background: #03D29F;
+    position: relative;
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-04{
+    background: #50A7FF;
+    position: relative;
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-03{
+    background: #FF7675;
+    position: relative;
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width:800px){
+    .card-01{
+      flex: 100%;
+      max-width: 600px;
+    }
+  
+    .card-04{
+      flex: 100%;
+      max-width: 600px;
+    }
+  
+    .card-03{
+      flex: 100%;
+      max-width: 600px;
+    }
+  }
+  .col1{
+    float: left;
+    width: 45%;
+  }
+  .col2{
+    float: right;
+    width: 49%;
+  }
+  .imgll{
+    width: 300px;
+    height: 200px;
+  }
+  .h31{
+    color: rgba(63, 60, 60, 0.678) ;
+    font-size: 35px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+  }
+  .flexp{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .ques{
+    font-weight: 600;
+    font-size: 20px;
+  }
+  p.subd{
+    text-align: left;
+    margin-left: 20px;
+  }
+  .zigzag {
+    position: absolute;
+    width: 50px;
+    z-index: 1;
+    height: 270px;
+    left: calc(50% - 75px);
+  }
+  .zigzag:before,
+  .zigzag:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .zigzag:before {
+    width: 46px;
+    left: 110%;
+    background: linear-gradient(45deg, #fb1d78 25px, transparent 0) 0 25px, linear-gradient(135deg, #fb1d78 25px, transparent 0) 0 25px;
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-size: 50px 50px;
+    height: 100%;
+  }
+  .zigzag:after {
+    width: 50px;
+    left: 100%;
+    background: linear-gradient(45deg, #03D29F 25px, transparent 0) 0 25px, linear-gradient(135deg, #03D29F 25px, transparent 0) 0 25px;
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-size: 50px 50px;
+    height: 100%;
+  }
+  .zigzaga {
+    position: absolute;
+    width: 50px;
+    z-index: 1;
+    height: 310px;
+    left: calc(50% - 75px);
+  }
+  .zigzaga:before,
+  .zigzaga:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .zigzaga:before {
+    width: 46px;
+    left: 110%;
+    background: linear-gradient(45deg, #fb1d78 25px, transparent 0) 0 25px, linear-gradient(135deg, #fb1d78 25px, transparent 0) 0 25px;
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-size: 50px 50px;
+    height: 100%;
+  }
+  .zigzaga:after {
+    width: 50px;
+    left: 100%;
+    background: linear-gradient(45deg, #03D29F 25px, transparent 0) 0 25px, linear-gradient(135deg, #03D29F 25px, transparent 0) 0 25px;
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-size: 50px 50px;
+    height: 100%;
+  }
+  .zigzag2 {
+    position: absolute;
+    width: 50px;
+    z-index: 1;
+    height: 300px;
+    left: calc(50% - 75px);
+  }
+  .zigzag2:before,
+  .zigzag2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .zigzag2:before {
+    width: 46px;
+    left: 110%;
+    background: linear-gradient(45deg, #fb1d78 25px, transparent 0) 0 25px, linear-gradient(135deg, #fb1d78 25px, transparent 0) 0 25px;
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-size: 50px 50px;
+    height: 100%;
+  }
+  .zigzag2:after {
+    width: 50px;
+    left: 100%;
+    background: linear-gradient(45deg, #50A7FF 25px, transparent 0) 0 25px, linear-gradient(135deg, #50A7FF 25px, transparent 0) 0 25px;
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-size: 50px 50px;
+    height: 100%;
+  }
+  .zigzag3 {
+    position: absolute;
+    width: 50px;
+    z-index: 1;
+    height: 300px;
+    left: calc(50% - 75px);
+  }
+  .zigzag3:before,
+  .zigzag3:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .zigzag3:before {
+    width: 46px;
+    left: 110%;
+    background: linear-gradient(45deg, #fb1d78 25px, transparent 0) 0 25px, linear-gradient(135deg, #fb1d78 25px, transparent 0) 0 25px;
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-size: 50px 50px;
+    height: 100%;
+  }
+  .zigzag3:after {
+    width: 50px;
+    left: 100%;
+    background: linear-gradient(45deg,  #FF7675 25px, transparent 0) 0 25px, linear-gradient(135deg,  #FF7675 25px, transparent 0) 0 25px;
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-size: 50px 50px;
+    height: 100%;
+  }

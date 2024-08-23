@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    
+    <div class="video-gallery">
+        <div class="featured-video">
+            <h2>Featured Video</h2>
+            <div class="video-card" onclick="playVideo('videos/video3.mp4')">
+                <img src="images/thumbnail3.png" alt="">
+                <h3>How To Get Good At Photography</h3>
+
+                <img class="play-icon" src="images/play-icon.png" alt="">
+            </div>
+        </div>
+
+        <h2 class="related-videos-title">Related Videos</h2>
+
+        <div class="related-videos">
+            <div class="video-card" onclick="playVideo('videos/video1.mp4')">
+                
+                <div class="thumbnail">
+                    <img src="images/thumbnail1.png" alt="">
+
+                    <img class="play-icon" src="images/play-icon.png" alt="">
+                </div>
+                
+                <h3>Record High Quality Videos</h3>
+
+                
+            </div>
+
+            <div class="video-card" onclick="playVideo('videos/video2.mp4')">
+                
+                <div class="thumbnail">
+                    <img src="images/thumbnail2.png" alt="">
+
+                    <img class="play-icon" src="images/play-icon.png" alt="">
+                </div>
+                
+                <h3>Smartphone Photography</h3>
+                
+            </div>
+
+            <div class="video-card" onclick="playVideo('videos/video4.mp4')">
+                
+                <div class="thumbnail">
+                    <img src="images/thumbnail4.png" alt="">
+
+                    <img class="play-icon" src="images/play-icon.png" alt="">
+                </div>
+                
+                <h3>Basics of DSLR Camera</h3>
+    
+            </div>
+        </div>
+    </div>
+
+
+    <div class="video">
+        <video controls autoplay class="videoPlayer">
+            <source src="videos/video1.mp4" type="video/mp4">
+        </video>
+
+        <div class="close-btn">+</div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
